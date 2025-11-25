@@ -1,0 +1,156 @@
+\* {
+    /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
+    font-family: "JetBrainsMono Nerd Font Mono", FontAwesome, sans-serif;
+    transition: background-color .3s ease-out;
+	font-weight: 600;
+	min-height: 0;
+	padding: 0;
+	margin: 0;
+	color: #575757;
+}
+
+window#waybar {
+    font-size: 13px;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 1);
+    color: #575757;
+    font-family: JetBrainsMono Nerd Font Mono;
+    transition: background-color .5s;
+	min-height: 0px;
+	border-radius: 0px;
+}
+
+.modules-right
+{
+	background: rgba(0, 0, 0, 0.5);
+}
+.modules-left {
+	background: rgba(0, 0, 0, 0.5);
+}
+.modules-center {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#clock{
+	font-family: JetBrainsMono Nerd Font Mono;
+	margin: 0;
+	padding: 0 7px;
+}
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio {
+	padding: 0 7px;
+}
+#wireplumber,
+#custom-media,
+
+#mode,
+#idle_inhibitor{
+	margin: 0;
+	padding: 0 7px;
+}
+#scratchpad,
+#power-profiles-daemon,
+#language {
+	margin: 0 0px;
+	padding: 0 5;
+
+}
+#mpd {
+}
+#tray {
+	padding: 0 7;
+	margin-right: 7px;
+}
+
+#custom-logo {
+    margin: 0px;
+  font-family: "Untitled5";
+  font-weight: 100;
+  font-size: 30px;
+    padding-right: 7px;
+    padding-left: 12px;
+}
+
+#custom-logo:hover {
+    color: #A90017;
+    transition: color .5s;
+	border-top: 2px solid #A90017;
+}
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#power-profiles-daemon:hover,
+#language:hover,
+#mpd:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #A90017;
+    transition: color .5s;
+	border-top: 2px solid #A90017;
+
+}
+
+#window {
+}
+
+#workspaces {
+}
+
+#workspaces button {
+
+	color: #575757;
+	padding: 3px;
+	font-size: 17px;
+}
+
+
+#workspaces button.active,
+#workspaces button.focused {
+	color: #A90017;
+	border-top: 2px solid #A90017;
+}
+
+#custom-arch {
+    margin: 0px;
+    font-size: 23px;
+    transition: color .5s;
+    padding-right: 7px;
+    padding-left: 12px;
+}
+#custom-arch:hover {
+    color: #A30817;
+}
+#custom-sleepbutt {
+    font-size: 23px;
+    transition: color .5s;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#custom-sleepbutt:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #A90017;
+    transition: color .5s;
+	border-top: 2px solid #A90017;
+
+}

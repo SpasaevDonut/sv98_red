@@ -1,0 +1,113 @@
+{
+    "custom/arch": {
+        "format": "󰣇",
+        "tooltip": true,
+        "tooltip-format": "btw"
+    },
+	"custom/sleepbutt": {
+		"format": "<span font='18' rise='-5000'>󰒲</span>",
+		"tooltip": true,
+		"tooltip-format": "systemctl suspend",
+		"on-click": "systemctl suspend"
+	},
+
+
+"custom/logo": {
+  "format": "D",
+  "tooltip": false
+},
+
+	"hyprland/workspaces": {
+	    "disable-scroll": true,
+	    "all-outputs": true,
+	    "warp-on-scroll": false,
+	    "format": "{icon}",
+	    "format-icons": {
+	    		"1": "󰈹",
+	    		"2": "",
+	    		"3": "",
+	    		"4": "",
+	    		"5": "",
+	    		"6": "",
+	    		"7": "",
+	    		"8": "",
+	    	},
+	    
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "[A]",
+            "deactivated": "[D]"
+        }
+    },
+    "pulseaudio": {
+        "format": "<span font='18' rise='-5000'>{icon}</span> {volume}%",
+        "format-bluetooth": "{icon} {volume}% <span font='18' rise='-5000'></span> {format_source}",
+        "format-bluetooth-muted": " {icon}<span font='18' rise='-5000'></span> {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "<span font='18' rise='-5000'></span>{volume}%",
+        "format-source-muted": " ",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": "󰋎 ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": ["󰓃"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "format-wifi": "<span font='18' rise='-5000'>󰤨</span> {essid} ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "Disconnected <span font='18' rise='-5000'>⚠</span>",
+		"on-click": "kitty nmtui"
+	 
+    },
+    //"cpu": {
+    //    "format": "  {usage}%",
+    //    "tooltip": true
+    //},
+    //"memory": {
+    //    "format": "  {}%",
+	//"tooltip": true
+    //},
+    "hyprland/language": {
+       "format": "[{}]",
+       "format-en": "EN",
+       "format-ru": "RU",
+       "format-": "RU"
+       
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<span font='18' rise='-5000'>{icon}</span> {capacity}%",
+        "format-full": "<span font='18' rise='-5000'>{icon}</span> {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} left",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "clock": {
+        "format": "{:%H:%M | %e %B} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+	"tray": {
+	  "icon-size": 13,
+	  "spacing": 5
+	}
+
+}
+
+
