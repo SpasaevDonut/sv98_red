@@ -1,21 +1,15 @@
 {
-    "custom/arch": {
-        "format": "󰣇",
-        "tooltip": true,
-        "tooltip-format": "btw"
-    },
-	"custom/sleepbutt": {
-		"format": "<span font='18' rise='-5000'>󰒲</span>",
-		"tooltip": true,
-		"tooltip-format": "systemctl suspend",
-		"on-click": "systemctl suspend"
-	},
-
-
-"custom/logo": {
-  "format": "D",
-  "tooltip": false
-},
+      "custom/arch": {
+            "format": "󰣇",
+            "tooltip": true,
+            "tooltip-format": "btw"
+      },
+    	"custom/sleepbutt": {
+    		"format": "<span font='18' rise='-5000'>󰒲</span>",
+    		"tooltip": true,
+		    "tooltip-format": "systemctl suspend",
+		    "on-click": "systemctl suspend"
+	    },
 
 	"hyprland/workspaces": {
 	    "disable-scroll": true,
@@ -66,16 +60,7 @@
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected <span font='18' rise='-5000'>⚠</span>",
 		"on-click": "kitty nmtui"
-	 
     },
-    //"cpu": {
-    //    "format": "  {usage}%",
-    //    "tooltip": true
-    //},
-    //"memory": {
-    //    "format": "  {}%",
-	//"tooltip": true
-    //},
     "hyprland/language": {
        "format": "[{}]",
        "format-en": "EN",

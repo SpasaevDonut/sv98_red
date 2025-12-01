@@ -68,21 +68,6 @@ window#waybar {
 	margin-right: 7px;
 }
 
-#custom-logo {
-    margin: 0px;
-  font-family: "Untitled5";
-  font-weight: 100;
-  font-size: 30px;
-    padding-right: 7px;
-    padding-left: 12px;
-}
-
-#custom-logo:hover {
-    color: #A90017;
-    transition: color .5s;
-	border-top: 2px solid #A90017;
-}
-
 #clock:hover,
 #battery:hover,
 #cpu:hover,
@@ -121,7 +106,6 @@ window#waybar {
 	font-size: 17px;
 }
 
-
 #workspaces button.active,
 #workspaces button.focused {
 	color: #A90017;
@@ -138,6 +122,7 @@ window#waybar {
 #custom-arch:hover {
     color: #A30817;
 }
+
 #custom-sleepbutt {
     font-size: 23px;
     transition: color .5s;
